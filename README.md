@@ -3,19 +3,6 @@
 Sistema desarrollado para la gestión y registro de vehículos, integrando tecnologías modernas de persistencia en la nube y optimización de procesos mediante concurrencia.
 
 ---
-
-##  Interfaz y Diseño
-
-El diseño se basa en una estética técnica y minimalista, utilizando una paleta de colores profesional:
-
-| Elemento | Color / Estilo |
-| :--- | :--- |
-| **Fondo Principal** | `#EDF2F7` (Gris Pálido / Beige frío) |
-| **Acentos** | `#2D3748` (Gris Oscuro Profesional) |
-| **Componentes** | Diseño limpio y funcional |
-
----
-
 ##  Características Principales
 
 * **Gestión Integral:** Registro completo de marca, modelo, placa y año.
@@ -47,6 +34,20 @@ Se utiliza **MongoDB Atlas**. Los documentos dentro de la colección `vehiculos`
 * **Modelo (`Vehiculo`):** Representación de los datos optimizada con anotaciones `@Data` de Lombok.
 * **Vista (`FXML`):** Archivos de diseño para una interfaz gráfica moderna.
 * **Controlador:** Lógica que procesa las entradas del usuario y coordina la aplicación.
+    private String codigo;
+    private String marca;
+    private String modelo;
+    private double precio;
+## Cómo ejecutar el proyecto
+## Clonar el repositorio:
+git clone [https://github.com/tu-usuario/tu-repo.git](https://github.com/tu-usuario/tu-repo.git)
+
+## Configurar MongoDB:
+Sustituye la cadena de conexión en la clase encargada de la base de datos con tu propia URI de MongoDB Atlas.
+## Ejecutar la aplicación:
+Si utilizas Maven:
+mvn clean javafx:run
+  
 <img width="758" height="537" alt="image" src="https://github.com/user-attachments/assets/85847dc8-bdf1-4277-8168-0313d2f4de3f" />
 
 
