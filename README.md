@@ -1,14 +1,10 @@
 # 🚗 Aplicación Distribuida de Registro de Vehículos
 
-> **Estado del Proyecto:** 🚀 Finalizado  
-> **Institución:** Escuela Politécnica Nacional (EPN)  
-> **Entorno:** Java + MongoDB Atlas
-
 Sistema desarrollado para la gestión y registro de vehículos, integrando tecnologías modernas de persistencia en la nube y optimización de procesos mediante concurrencia.
 
 ---
 
-## 🎨 Interfaz y Diseño
+##  Interfaz y Diseño
 
 El diseño se basa en una estética técnica y minimalista, utilizando una paleta de colores profesional:
 
@@ -20,7 +16,7 @@ El diseño se basa en una estética técnica y minimalista, utilizando una palet
 
 ---
 
-## 📌 Características Principales
+##  Características Principales
 
 * **Gestión Integral:** Registro completo de marca, modelo, placa y año.
 * **Fluidez de UI:** La interfaz se ejecuta en un **hilo (Thread)** independiente para evitar bloqueos y mejorar la respuesta del sistema.
@@ -29,7 +25,7 @@ El diseño se basa en una estética técnica y minimalista, utilizando una palet
 
 ---
 
-## 🧰 Stack Tecnológico
+##  Stack Tecnológico
 
 * **Java JDK:** Lenguaje de desarrollo principal.
 * **JavaFX:** Framework para la creación de la interfaz gráfica de usuario (GUI).
@@ -58,4 +54,5 @@ Se utiliza **MongoDB Atlas**. Los documentos dentro de la colección `vehiculos`
   "modelo": "String",
   "precio": "double"
 }
+
 <img width="758" height="537" alt="image" src="https://github.com/user-attachments/assets/85847dc8-bdf1-4277-8168-0313d2f4de3f" />
