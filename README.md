@@ -47,12 +47,6 @@ Se utiliza **MongoDB Atlas**. Los documentos dentro de la colección `vehiculos`
 * **Modelo (`Vehiculo`):** Representación de los datos optimizada con anotaciones `@Data` de Lombok.
 * **Vista (`FXML`):** Archivos de diseño para una interfaz gráfica moderna.
 * **Controlador:** Lógica que procesa las entradas del usuario y coordina la aplicación.
-```json
-{
-  "codigo": "String",
-  "marca": "String",
-  "modelo": "String",
-  "precio": "double"
-}
-
 <img width="758" height="537" alt="image" src="https://github.com/user-attachments/assets/85847dc8-bdf1-4277-8168-0313d2f4de3f" />
+
+
